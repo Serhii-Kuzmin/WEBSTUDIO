@@ -1,0 +1,158 @@
+/* 768px */
+@media screen and (min-width:768px) {
+    .container{
+    max-width: 768px;
+    }
+
+  /**
+    |============================
+    | HEADER
+    |============================
+  */
+
+  .main-header {
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
+  .container-header {
+    display: flex;
+    align-items: center;
+  }
+  .items-nav {
+    display: flex;
+    align-items: center;
+  }
+  .logotype {
+    margin-right: 76px; 
+  }
+  .navigation-menu {
+    display: flex;
+    gap: 40px;
+  }
+  .navigation-link {
+    display: inline-block;
+    padding: 24px 0;
+  }
+  .list-contact {
+    display: flex;
+    gap: 40px;
+  }
+
+  /**
+    |============================
+    | MOBILE-MENU
+    |============================
+  */
+  .toogle-menu {
+    display: none;
+
+  }
+  .toogle-menu-icon {
+    
+  }
+
+/**
+  |============================
+  | SECTION-TITLE
+  |============================
+*/
+.section-title {
+    max-width: 768px;
+    padding: 112px 0;
+    margin-bottom: 96px;
+
+    
+  }
+
+  .title{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+  .button-order-service {
+
+  }
+
+  /**
+    |============================
+    | SECTION
+    |============================
+  */
+  .section-features {
+    padding: 0 16px ;
+   /* display: flex; */
+    max-width: 768px;
+    
+  }
+
+  .menu-features {
+    
+  }
+  
+  /* .menu-features .item-text {
+    width: calc((100% - 3 * 24px) / 4);
+  } */
+  .list {
+  }
+  .item-text {
+  }
+  .container-icon {
+    display: none;
+  }
+  .features-icon {
+  }
+  .subtitle {
+  }
+  .text {
+  }
+  
+  /**
+    |============================
+    | SECTION-BENEFITS
+    |============================
+  */
+  .benefits {
+  }
+  .container {
+  }
+  .caption {
+  }
+  .menu-benefits {
+  }
+  .list {
+  }
+  .item-benefits {
+  }
+
+  /**
+  |============================
+  | SECTION-DESC
+  |============================
+*/
+
+/**
+  |============================
+  | SECTION-CUSTOMERS
+  |============================
+*/
+
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
+
+/**
+  |============================
+  | FORM-FOOTER
+  |============================
+*/
+
+/**
+  |============================
+  | MODAL-WINDOW
+  |============================
+*/
+}
