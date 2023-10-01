@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+:root {
+  --brand-text: "Roboto", sans-serif;
+  --brand-color: #434455;
+  --brand-background-color: white;
+  --brand-font-size: 16px;
+  --brand-line-height: 1.5;
+  --brand-letter-spacing: 0.02em;
+  --brand-background-color-button: #f4f4fd;
+  --logotype-color: #4d5ae5;
+  --logo-text-color: #2e2f42;
+  --customers-color-icon: #8e8f99;
+  /* root of z-index */
+  --z-idx-icon: 10;
+  --z-idx-header: 20;
+  --z-idx-modal: 30;
+  /* modal */
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --bckg-modal-color: #fcfcfc;
+}
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  color: white;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+}

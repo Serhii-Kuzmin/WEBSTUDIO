@@ -17,10 +17,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/tablet.css">
-    <link rel="stylesheet" href="./css/decstop.css">
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/desctop.css">
   </head>
   <body>
     <!-- header -->
@@ -56,6 +58,15 @@
             </li>
           </ul>
         </address>
+        <button 
+          class="toogle-menu js-open-menu" 
+          aria-expanded="false"
+          aria-controls="mobile-menu" 
+          type="button">
+          <svg class="toogle-menu-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -89,10 +100,13 @@
               <a class="link-prev link" href="#">
                 <div class="box">
                   <img
+                    srcset="./images/img1.jpg    1x,
+                    ./images/img1@2x.jpg         2x"
                     src="./images/img1.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -101,8 +115,8 @@
                   </p>
                 </div>
                 <div class="container-picture">
-                  <h2 class="subtitle">Banking App Interface Concept</h2>
-                  <p class="text">App</p>
+                  <h2 class="subtitle title-prev">Banking App Interface Concept</h2>
+                  <p class="text text-prev">App</p>
                 </div>
               </a>
             </li>
@@ -110,10 +124,13 @@
               <a class="link-prev link" href="#">
                 <div class="box">
                   <img
+                    srcset="./images/img2.jpg    1x,
+                    ./images/img2@2x.jpg         2x"
                     src="./images/img2.jpg"
                     alt="Cashless Payment"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -122,8 +139,8 @@
                   </p>
                 </div>
                 <div class="container-picture">
-                  <h2 class="subtitle">Cashless Payment</h2>
-                  <p class="text">Marketing</p>
+                  <h2 class="subtitle title-prev">Cashless Payment</h2>
+                  <p class="text text-prev" text-prev>Marketing</p>
                 </div>
               </a>
             </li>
@@ -131,10 +148,13 @@
               <a class="link-prev link" href="#">
                 <div class="box">
                   <img
+                    srcset="./images/img3.jpg    1x,
+                    ./images/img3@2x.jpg         2x"
                     src="./images/img3.jpg"
                     alt="Meditation App"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -143,8 +163,8 @@
                   </p>
                 </div>
                 <div class="container-picture">
-                  <h2 class="subtitle">Meditation App</h2>
-                  <p class="text">App</p>
+                  <h2 class="subtitle title-prev">Meditation App</h2>
+                  <p class= "text text-prev">App</p>
                 </div>
               </a>
             </li>
@@ -152,10 +172,13 @@
               <a class="link-prev link" href="#">
                 <div class="box">
                   <img
+                    srcset="./images/img4.jpg    1x,
+                    ./images/img4@2x.jpg         2x"
                     src="./images/img4.jpg"
                     alt="Taxi Service"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -164,8 +187,8 @@
                   </p>
                 </div>
                 <div class="container-picture">
-                  <h2 class="subtitle">Taxi Service</h2>
-                  <p class="text">Marketing</p>
+                  <h2 class="subtitle title-prev">Taxi Service</h2>
+                  <p class="text text-prev">Marketing</p>
                 </div>
               </a>
             </li>
@@ -173,10 +196,13 @@
               <a class="link-prev link" href="#">
                 <div class="box">
                   <img
+                    srcset="./images/img5.jpg    1x,
+                    ./images/img5@2x.jpg         2x"
                     src="./images/img5.jpg"
                     alt="Screen Illustrations"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -185,8 +211,8 @@
                   </p>
                 </div>
                 <div class="container-picture">
-                  <h2 class="subtitle">Screen Illustrations</h2>
-                  <p class="text">Design</p>
+                  <h2 class="subtitle title-prev">Screen Illustrations</h2>
+                  <p class="text text-prev">Design</p>
                 </div>
               </a>
             </li>
@@ -194,10 +220,13 @@
               <a class="link-prev link" href="#">
                 <div class="box">
                   <img
+                    srcset="./images/img6.jpg    1x,
+                    ./images/img6@2x.jpg         2x"
                     src="./images/img6.jpg"
                     alt="Online Courses"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -206,8 +235,8 @@
                   </p>
                 </div>
                 <div class="container-picture">
-                  <h2 class="subtitle">Online Courses</h2>
-                  <p class="text">Marketing</p>
+                  <h2 class="subtitle title-prev">Online Courses</h2>
+                  <p class="text text-prev">Marketing</p>
                 </div>
               </a>
             </li>
@@ -215,10 +244,13 @@
               <a class="link-prev link" href="#">
                 <div class="box">
                   <img
+                    srcset="./images/img7.jpg    1x,
+                    ./images/img7@2x.jpg         2x"
                     src="./images/img7.jpg"
                     alt="Instagram Stories Concept"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -227,8 +259,8 @@
                   </p>
                 </div>
                 <div class="container-picture">
-                  <h2 class="subtitle">Instagram Stories Concept</h2>
-                  <p class="text">Design</p>
+                  <h2 class="subtitle title-prev">Instagram Stories Concept</h2>
+                  <p class="te text-prev">Design</p>
                 </div>
               </a>
             </li>
@@ -236,10 +268,13 @@
               <a class="link-prev link" href="#">
                 <div class="box">
                   <img
+                    srcset="./images/img8.jpg    1x,
+                    ./images/img8@2x.jpg         2x"
                     src="./images/img8.jpg"
                     alt="Organic Food"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -248,8 +283,8 @@
                   </p>
                 </div>
                 <div class="container-picture">
-                  <h2 class="subtitle">Organic Food</h2>
-                  <p class="text">Web Site</p>
+                  <h2 class="subtitle title-prev">Organic Food</h2>
+                  <p class="text text-prev">Web Site</p>
                 </div>
               </a>
             </li>
@@ -257,10 +292,13 @@
               <a class="link-prev link" href="#">
                 <div class="box">
                   <img
+                    srcset="./images/img9.jpg    1x,
+                    ./images/img9@2x.jpg         2x"
                     src="./images/img9.jpg"
                     alt="Fresh Coffee"
                     width="360"
                     height="300"
+                    loading="lazy"
                   />
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -269,8 +307,8 @@
                   </p>
                 </div>
                 <div class="container-picture">
-                  <h2 class="subtitle">Fresh Coffee</h2>
-                  <p class="text">Web Site</p>
+                  <h2 class="subtitle title-prev">Fresh Coffee</h2>
+                  <p class="text text-prev">Web Site</p>
                 </div>
               </a>
             </li>
@@ -370,5 +408,74 @@
         </div>
       </div>
     </footer>
+     <!-- MOBILE-MENU -->
+     <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="menu-toogle-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link " href="./index.html">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link current" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a class="mobile-menu-link link" href="">Contacts</a>
+        </li>
+      </ul>
+      <ul class="mobile-contacts list">
+        <li class="mobile-contacts-item">
+          <a class="mobile-contacts-link link accent" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+        <li class="mobile-contacts-item">
+          <a class="mobile-contacts-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="mobile-socials list">
+        <li class="mobile-socials-item">
+          <a href="" class="mobile-socials-link">
+            <svg class="mobile-socials-icon" width="24" height="">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-socials-item">
+          <a href="" class="mobile-socials-link">
+            <svg class="mobile-socials-icon" width="24" height="">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-socials-item">
+          <a href="" class="mobile-socials-link">
+            <svg class="mobile-socials-icon" width="24" height="">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-socials-item">
+          <a href="" class="mobile-socials-link">
+            <svg class="mobile-socials-icon" width="24" height="">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
