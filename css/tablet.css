@@ -13,7 +13,6 @@
   }
   .container-header {
     display: flex;
-    max-width: 768px;
   }
   .items-nav {
     justify-content: space-between;
@@ -118,7 +117,6 @@
   |============================
 */
   .section-title {
-    max-width: 768px;
     padding-top: 112px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -140,7 +138,6 @@
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    max-width: 496px;
     margin-bottom: 36px;
   }
 
@@ -151,16 +148,12 @@
   */
   .section-features {
     padding: 0 16px;
-    /* display: flex; */
-    max-width: 768px;
     padding-top: 96px;
     padding-bottom: 96px;
   }
 
   .menu-features {
     display: flex;
-    /* max-width: 736px; */
-
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -173,7 +166,7 @@
 
     width: calc(
       (100% - 3 * 24px) / 2
-    ); /* problem or adaptation: mobile-->tablet*/
+    );
   }
 
   /**
@@ -190,7 +183,7 @@
   |============================
 */
   .desc {
-    max-width: 768px;
+    
   }
 
   .menu-caption {
@@ -204,7 +197,6 @@
   |============================
 */
   .customers {
-    max-width: 768px;
     padding: 96px 0;
   }
   .customers-item {
@@ -220,7 +212,6 @@
 */
 
   .about {
-    max-width: 768px;
     padding: 98px 0 96px 108px;
   }
   .footer-container {
@@ -229,6 +220,7 @@
     justify-content: flex-start;
     column-gap: 24px;
     row-gap: 72px;
+    flex-direction: row;
   }
   .footer-left {
     margin: 0;
@@ -237,7 +229,6 @@
     text-align: left;
   }
   .text-about {
-    max-width: 264px;
   }
   .footer-socials {
     margin: 0;
@@ -257,6 +248,14 @@
   .form-container {
     column-gap: 24px;
   }
+  .form-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 16px;
+  }
   .form-text {
     text-align: left;
   }
@@ -270,8 +269,6 @@
   |============================
 */
   .section-button {
-    max-width: 768px;
-    margin: 0 auto;
   }
   .button-list {
     display: flex;

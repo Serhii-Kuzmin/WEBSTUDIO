@@ -22,7 +22,6 @@
 }
 .container-header {
   display: flex;
-  max-width: 428px;
   align-items: center;
   justify-content: space-between;
 }
@@ -165,7 +164,7 @@
   |============================
 */
 .section-title {
-  max-width: 428px;
+  
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -197,8 +196,6 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: white;
-  max-width: 320px;
-  margin: 0 auto;
   margin-bottom: 72px;
   text-transform: capitalize;
 }
@@ -215,7 +212,8 @@
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-order-service:hover,
@@ -230,8 +228,6 @@
   |============================
 */
 .section-features {
-  max-width: 396px;
-  margin: 0 auto;
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -251,7 +247,7 @@
 .item-text {
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  
 }
 .container-icon {
   display: none;
@@ -273,7 +269,7 @@
   letter-spacing: var(--brand-letter-spacing);
   color: var(--brand-color);
   font-weight: 500;
-  max-width: 396px;
+  
 }
 /**
   |============================
@@ -292,8 +288,6 @@
 .desc {
   background-color: #f4f4fd;
   padding: 96px 0;
-  max-width: 428px;
-  margin: 0 auto;
 }
 .caption {
   font-size: 36px;
@@ -366,8 +360,6 @@
 */
 .customers {
   padding: 96px 16px;
-  max-width: 428px;
-  margin: 0 auto;
 }
 
 .customers-title {
@@ -414,7 +406,7 @@
 
 .customers-link .customers-logo {
   fill: currentColor;
-  max-width: 168px;
+  
 }
 .customers-link:active,
 .customers-link:focus {
@@ -429,14 +421,13 @@
 .about {
   background-color: #2e2f42;
   padding: 97px 15px;
-  max-width: 428px;
-  margin: 0 auto;
 }
 .footer-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 .footer-left {
   display: block;
@@ -463,7 +454,7 @@
   background-color: #2e2f42;
   font-size: var(--brand-font-size);
   letter-spacing: 0.02em;
-  max-width: 268px;
+  max-width: 264px;
 }
 .footer-socials {
   margin-bottom: 72px;
@@ -519,16 +510,14 @@
   margin-bottom: 16px;
   text-align: center;
 }
-.form-container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  row-gap: 16px;
+@media screen and(max-width:427.99px) {
+  .label-form, .input-form{
+    width: 100%;
+  }
+  
 }
 .input-form {
-  width: 100%;
+  
   height: 40px;
   border: 1px solid var(--brand-background-color);
   background-color: transparent;
@@ -572,9 +561,7 @@
   |============================
 */
 .section-button {
-  max-width: 428px;
-  margin: 0 auto;
-}
+  }
 .button-list {
   display: flex;
   justify-content: start;
@@ -610,7 +597,6 @@
   align-items: center;
   flex-wrap: wrap;
   row-gap: 48px;
-  margin: 0 auto;
 }
 
 .title-prev {
@@ -763,7 +749,7 @@
   margin-bottom: 16px;
 }
 .label-form {
-  width: 100%;
+  
   display: block;
   font-size: 12px;
   line-height: 1.17;
@@ -775,7 +761,7 @@
   position: relative;
 }
 .input-modal {
-  width: 100%;
+  
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -852,7 +838,6 @@ input[type="checkbox"]:checked + .label-text > .span-form {
 }
 .btn-form {
   display: block;
-  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;

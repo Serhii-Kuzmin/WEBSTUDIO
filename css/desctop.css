@@ -11,7 +11,6 @@
   .container-header {
     display: flex;
     align-items: center;
-    max-width: 1158px;
     justify-content: space-between;
   }
   .items-nav {
@@ -95,10 +94,9 @@
     |============================
   */
   .section-features {
-    padding: 0;
+    padding:120px 0 ;
     display: flex;
-    max-width: 1128px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
   }
   .menu-features {
     display: flex;
@@ -106,7 +104,6 @@
     justify-content: center;
     gap: 24px;
     flex-wrap: nowrap;
-    margin: 0 auto;
   }
   .item-text {
     width: calc((100% - 3 * 24px) / 4);
@@ -115,6 +112,8 @@
     font-weight: 400;
   }
   .container-icon {
+    width: 100%;
+    padding: 24px 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,7 +123,7 @@
     margin-bottom: 8px;
   }
   .features-icon {
-    margin: 24px 100px;
+    
   }
   .subtitle {
     font-weight: 500;
@@ -142,7 +141,6 @@
   .benefits {
     display: flex;
     padding-bottom: 120px;
-    margin: 0 auto;
   }
   .container {
   }
@@ -160,7 +158,6 @@
     gap: 24px;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
   }
   /**
   |============================
@@ -168,7 +165,6 @@
   |============================
 */
   .desc {
-    max-width: 1158px;
     padding: 120px 0;
   }
   .menu-caption {
@@ -192,7 +188,6 @@
   |============================
  */
   .customers {
-    max-width: 1158px;
     padding: 120px 0;
   }
   .customers-list {
@@ -217,7 +212,6 @@
   |============================
 */
   .about {
-    max-width: 1158px;
     padding: 100px 0;
   }
   .footer-container {
@@ -240,7 +234,6 @@
     background-color: #31d0aa;
   }
   .text-about {
-    max-width: 264px;
   }
   /**
   |============================
@@ -268,8 +261,6 @@
   |============================
 */
   .section-button {
-    max-width: 1158px;
-    margin: 0 auto;
   }
   .button-list {
     display: flex;
