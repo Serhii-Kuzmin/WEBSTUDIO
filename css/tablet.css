@@ -64,7 +64,6 @@
 
   .contact-info {
     display: flex;
-    padding: 16px 0;
   }
   .list-contact {
     display: flex;
@@ -278,7 +277,7 @@
     justify-content: start;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 12px;
+    padding-bottom: 96px;
     row-gap: 72px;
     column-gap: 24px;
   }
