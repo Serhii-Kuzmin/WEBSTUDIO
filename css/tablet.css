@@ -122,7 +122,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/tab.jpg);
+      url(../images/desk.jpg);
   }
   @media only screen and (min-resolution: 192dpi) {
     .section-title {
@@ -130,7 +130,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/tab@2x.jpg);
+        url(../images/desk@2x.jpg);
     }
   }
 
