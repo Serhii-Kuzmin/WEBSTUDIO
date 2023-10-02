@@ -109,6 +109,9 @@
   .toogle-menu {
     display: none;
   }
+  .mobile-socials{
+    gap: 56px;
+  }
   /**
   |============================
   | SECTION-TITLE
@@ -116,7 +119,7 @@
 */
   .section-title {
     max-width: 768px;
-    padding: 112px 0;
+    padding-top: 112px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -150,6 +153,8 @@
     padding: 0 16px;
     /* display: flex; */
     max-width: 768px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .menu-features {
@@ -294,4 +299,19 @@
   | MODAL-WINDOW
   |============================
 */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 392px;
+  min-height: 584px;
+  background: var(--bckg-modal-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  padding: 72px 16px 24px 16px;
+}
 }
