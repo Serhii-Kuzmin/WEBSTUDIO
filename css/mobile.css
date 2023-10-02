@@ -420,7 +420,7 @@
 */
 .about {
   background-color: #2e2f42;
-  padding: 97px 15px;
+ 
 }
 .footer-container {
   display: flex;
@@ -428,6 +428,7 @@
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+  padding: 98px 15px 96px 15px;
 }
 .footer-left {
   display: block;
@@ -510,14 +511,13 @@
   margin-bottom: 16px;
   text-align: center;
 }
-@media screen and(max-width:427.99px) {
-  .label-form, .input-form{
-    width: 100%;
-  }
-  
+.footer-form{
+  /* width: 100%; */
+}
+.label-form{
 }
 .input-form {
-  
+  width: 100%;
   height: 40px;
   border: 1px solid var(--brand-background-color);
   background-color: transparent;
@@ -529,7 +529,18 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--brand-background-color);
+  margin-bottom: 16px;
 }
+
+@media screen and (max-width:427.99px) {
+  .footer-form{
+    width: 100%;
+  }
+  
+}
+
+
+
 .input-form::placeholder {
   color: var(--brand-background-color);
 }
@@ -549,6 +560,8 @@
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icon-footer-form {
@@ -748,8 +761,8 @@
 .modal-form-container {
   margin-bottom: 16px;
 }
-.label-form {
-  
+.label-form-window {
+  width: 100%;
   display: block;
   font-size: 12px;
   line-height: 1.17;
@@ -761,7 +774,7 @@
   position: relative;
 }
 .input-modal {
-  
+  width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -838,6 +851,8 @@ input[type="checkbox"]:checked + .label-text > .span-form {
 }
 .btn-form {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;

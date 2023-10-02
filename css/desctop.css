@@ -213,15 +213,16 @@
   |============================
 */
   .about {
-    padding: 100px 0;
+    
   }
   .footer-container {
     display: flex;
     align-items: baseline;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: nowrap;
     column-gap: normal;
     row-gap: 0px;
+    padding: 100px 0;
   }
   .footer-socials {
     margin-right: 80px;
@@ -241,9 +242,11 @@
   | FORM-FOOTER
   |============================
 */
+  
   .form-container {
     display: flex;
     gap: 24px;
+    
   }
   .label-form {
     gap: 24px;

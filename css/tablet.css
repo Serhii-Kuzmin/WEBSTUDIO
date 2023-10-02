@@ -87,19 +87,6 @@
   .link-contact:focus {
     color: #404bbf;
   }
-
-  .link-contact {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--brand-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .link-contact:hover,
-  .link-contact:focus {
-    color: #404bbf;
-  }
-
   /**
     |============================
     | MOBILE-MENU
@@ -135,6 +122,9 @@
   }
 
   .title {
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -155,7 +145,8 @@
   .menu-features {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    column-gap: 24px;
+    row-gap: 72px;
   }
 
   .item-text {
@@ -212,7 +203,7 @@
 */
 
   .about {
-    padding: 98px 0 96px 108px;
+    
   }
   .footer-container {
     display: flex;
@@ -221,6 +212,7 @@
     column-gap: 24px;
     row-gap: 72px;
     flex-direction: row;
+    padding: 98px 0 96px 108px;
   }
   .footer-left {
     margin: 0;
@@ -252,7 +244,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     row-gap: 16px;
   }
@@ -262,6 +254,7 @@
   .input-form {
     width: 264px;
     height: 40px;
+    margin-bottom: 0;
   }
   /**
   |============================
