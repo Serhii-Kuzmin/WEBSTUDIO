@@ -264,28 +264,31 @@
   | PORTFOLIO
   |============================
 */
-.section-button {
-  max-width: 768px;
-  
-}
-.button-list{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 24px;
-  padding-left: 16px;
-  padding-top: 64px;
-  padding-bottom: 64px;
-
-}
-.list-preview{
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
+  .section-button {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .button-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 24px;
+    padding-left: 16px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .list-preview {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 12px;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .tag-prev {
+  }
   /**
   |============================
   | MODAL-WINDOW
